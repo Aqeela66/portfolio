@@ -32,4 +32,5 @@ A portfolio website is the quickest and easiest way of showcasing your work as a
 https://github.com/Aqeela66/portfolio
 
 ### Live link
+https://aqeela66.github.io/portfolio/
 
