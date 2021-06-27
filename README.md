@@ -33,5 +33,4 @@ https://github.com/Aqeela66/portfolio
 
 ### Live link
 https://aqeela66.github.io/portfolio/
-https://aqeela66.github.io/portfolio/
 
