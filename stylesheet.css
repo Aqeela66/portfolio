@@ -1,0 +1,288 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(94, 140, 172));
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(images/images.gif);
+        font-family: "Trirong", serif;
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .header {
+        overflow: hidden;
+        background-color: #79adc5;
+        min-height: auto;
+        padding: 30px 5px;
+        text-align: center;
+        background: #8a5791;
+        color: solid rgb(255, 255, 255);
+        padding-top: 1px;
+        padding-bottom: 2px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    
+    .header img.logo {
+        font-size: 25px;
+        font-weight: bold;
+        max-width: 10%;
+        border-radius: 50%;
+        justify-content: left;
+    }
+    
+    .header img:hover {
+        transform: scale(0.5);
+    }
+    
+    .header h1 {
+        float: right;
+        align-items: center;
+        text-align: right;
+        padding: 13px;
+        text-decoration: solid rgb(255, 255, 255);
+        font-size: 40px;
+        line-height: 25px;
+        font-weight: bold;
+        border-radius: 0%;
+        box-sizing: border-box;
+        text-shadow: 3px 3px 4px #aa0000;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .column {
+        width: 400px;
+        height: auto;
+        padding: 5px;
+        display: inline-block;
+        margin: 0 1% 0 1%;
+        text-align: center;
+    }
+    
+    .row {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: inline-block;
+        margin: 0 1% 0 1%;
+        text-align: center;
+    }
+    /* Clearfix (clear floats) */
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        padding: 5px;
+    }
+    
+    .section h1 {
+        float: center;
+        text-align: center;
+        color: white;
+    }
+    
+    .section ul {
+        float: center;
+        text-align: justify;
+        color: white;
+    }
+    
+    .section p {
+        float: center;
+        text-align: center;
+        color: white;
+    }
+    
+    .section h3 {
+        float: center;
+        text-align: center;
+        color: rgb(203, 247, 210);
+    }
+    
+    .navbar {
+        width: 100%;
+        background: linear-gradient(135deg, #a71853 20%, #791199 90%);
+        background-color: rgba(43, 206, 165, 0.925);
+        overflow: auto;
+        position: sticky;
+        top: 0;
+        display: flex;
+        text-align: justify;
+    }
+    
+    .navbar a {
+        float: center;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 17px;
+        font-style: inherit;
+        font-feature-settings: "vrt2";
+        font-weight: bold;
+        position: sticky;
+        color: #ffffff;
+    }
+    
+    .navbar a:hover {
+        background-color: rgba(189, 105, 27, 0.829);
+    }
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    
+    table,
+    th,
+    td {
+        border: 3px solid rgb(174, 185, 11);
+        border-collapse: collapse;
+        border-width: thick;
+    }
+    
+    th,
+    td {
+        padding: 5px;
+        text-align: center;
+        color: rgb(245, 248, 250);
+    }
+    
+    #head {
+        color: aquamarine;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .socialicons {
+        text-align: center;
+        width: auto;
+        height: 100%;
+        padding: 50px;
+    }
+    
+    .socialicons img {
+        width: 100px;
+        height: 100px;
+        border: none;
+        border-radius: 50%;
+    }
+    
+    #anchor {
+        color: rgb(255, 255, 255);
+        background-color: rgb(201, 17, 218);
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    #footer {
+        float: center;
+        color: #ffffff;
+        background: #8a5791;
+        text-align: left;
+        padding: 1px;
+        text-decoration: solid rgb(218, 140, 140);
+        font-size: 20px;
+        line-height: 10px;
+        font-weight: bold;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-shadow: 2px 2px 4px #b81515;
+        font-style: oblique;
+        width: 100%;
+        height: 60%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    caption {
+        color: #ffffff;
+    }
+    
+    @media screen and (max-width: 360px) {
+        body {
+            background-image: linear-gradient(to right, rgba(247, 247, 118, 0.973), rgb(9, 120, 204));
+            font-family: "Trirong", serif;
+            margin: 1px;
+            font-size: small;
+            font-weight: bold;
+        }
+    }
+    
+    @media screen and (max-width: 360px) {
+        .section ul,
+        .section h3 {
+            background-image: linear-gradient(to right, rgba(255, 255, 0, 0), rgb(50, 147, 196));
+            font-family: "Trirong", serif;
+            margin: 2px;
+            font-size: small;
+            font-weight: bold;
+        }
+    }
+    
+    @media screen and (max-width: 360px) {
+        .section p,
+        .section h1,
+        .header h1 {
+            background-image: linear-gradient(to right, rgba(255, 255, 0, 0), rgb(94, 140, 172));
+            font-family: "Trirong", serif;
+            margin: 0;
+            font-size: small;
+            font-weight: bold;
+            color: rgb(15, 15, 15);
+        }
+    }
+    
+    @media screen and (max-width: 360px) {
+        .navbar,
+        .navbar a,
+        .navbar a:hover {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 10%;
+            padding: 3px;
+            font-size: small;
+            float: none;
+        }
+    }
+    
+    @media screen and (max-width: 360px) {
+        #footer {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 5%;
+            direction: ltr;
+            font-size: small;
+        }
+    }
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    
+    @media screen and (max-width: 360px) {
+        .column {
+            width: 30%;
+            height: auto;
+        }
+    }
+    
+    @media screen and (max-width: 360px) {
+        .socialicons,
+        .socialicons img {
+            width: 100%;
+            height: auto;
+            flex: 70%;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+    }
+    
+    @media screen and (max-width: 360px) {
+        .row {
+            width: 100%;
+        }
+    }
