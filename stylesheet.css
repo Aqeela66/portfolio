@@ -3,7 +3,6 @@
     }
     
     body {
-        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(94, 140, 172));
         background-attachment: scroll;
         background-position: center;
         background-repeat: no-repeat;
@@ -21,7 +20,7 @@
         min-height: auto;
         padding: 30px 5px;
         text-align: center;
-        background: #8a5791;
+        background: #3b5264;
         color: solid rgb(255, 255, 255);
         padding-top: 1px;
         padding-bottom: 2px;
@@ -87,7 +86,7 @@
     .section h1 {
         float: center;
         text-align: center;
-        color: white;
+        color: rgb(255, 255, 255);
     }
     
     .section ul {
@@ -105,13 +104,13 @@
     .section h3 {
         float: center;
         text-align: center;
-        color: rgb(203, 247, 210);
+        color: whitesmoke;
+        text-shadow: 3px 3px 4px #aa0000;
     }
     
     .navbar {
         width: 100%;
-        background: linear-gradient(135deg, #a71853 20%, #791199 90%);
-        background-color: rgba(43, 206, 165, 0.925);
+        background: linear-gradient(to right, #587686,#a2b7be);
         overflow: auto;
         position: sticky;
         top: 0;
@@ -132,14 +131,14 @@
     }
     
     .navbar a:hover {
-        background-color: rgba(189, 105, 27, 0.829);
+        background-color: #3b5264;
     }
     /* Responsive layout - makes a two column-layout instead of four columns */
     
     table,
     th,
     td {
-        border: 3px solid rgb(174, 185, 11);
+        border: 3px solid rgba(196, 197, 185, 0.918);
         border-collapse: collapse;
         border-width: thick;
     }
@@ -173,17 +172,18 @@
     
     #anchor {
         color: rgb(255, 255, 255);
-        background-color: rgb(201, 17, 218);
+        background-color: rgb(27, 44, 65);
         padding: 15px 25px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
+        border: 4px solid rgb(79, 97, 119) ;
     }
     
     #footer {
         float: center;
         color: #ffffff;
-        background: #8a5791;
+        background-color: #3b5264;
         text-align: left;
         padding: 1px;
         text-decoration: solid rgb(218, 140, 140);
@@ -286,8 +286,7 @@
             width: 100%;
         }
     }
-
- /* Float four columns side by side */
+    /* Float four columns side by side */
 .column {
     float: left;
     width: 45%;
@@ -315,14 +314,15 @@
   
   /* Style the counter cards */
   .card {
-      border: 10px solid rgb(173, 68, 187);
-      box-shadow: 10px 10px 8px 10px #c255d8;
+    border: 10px solid rgb(79, 97, 119) ;
+      box-shadow: 10px 10px 8px 10px #80b6e2;
     padding: 15px;
     margin-left: 80px;
     text-align: center;
     justify-items: center;
-    background-color: #40085a;
+    background-color: #205168;
   }
+
 
 .wave {
   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
