@@ -343,7 +343,9 @@
   100% { transform: rotate( 0.0deg) }
 }
 * For demonstration purposes only: */
-h1 { font-size: 40px }
+p {     float: center;
+        text-align: center;
+        color: white;  }
 
 
 
